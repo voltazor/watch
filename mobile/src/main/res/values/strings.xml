@@ -4,6 +4,8 @@
     <string name="app_name">Watch</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="lbl_recycler_view">RecyclerView:</string>
+    <string name="lbl_recycler_view">RecyclerView</string>
+    <string name="title_activity_mobile_main">MobileMainActivity</string>
+    <string name="lbl_volume_control">Volume control</string>
 
 </resources>

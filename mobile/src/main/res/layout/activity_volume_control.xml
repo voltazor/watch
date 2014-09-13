@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:gravity="center">
+
+    <Button
+        android:id="@+id/increase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"/>
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rotation="-90"
+            android:src="@drawable/bg_seek_bar"/>
+
+        <com.triggertrap.seekarc.SeekArc
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="60dp"/>
+
+    </FrameLayout>
+
+    <!--<SeekBar-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:thumb="@android:drawable/ic_lock_silent_mode_off"/>-->
+
+    <Button
+        android:id="@+id/decrease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"/>
+
+</LinearLayout>

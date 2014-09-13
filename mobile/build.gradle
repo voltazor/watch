@@ -23,6 +23,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     wearApp project(':wear')
+    compile project(':seek_arc')
     compile 'com.google.android.gms:play-services-wearable:+'
     compile 'com.android.support:support-v4:20+'
     compile "com.android.support:cardview-v7:+"

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="green_pressed">#4d4</color>
     <color name="blue_pressed">#359</color>
 
 </resources>
